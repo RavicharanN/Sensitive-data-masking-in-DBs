@@ -18,6 +18,9 @@
   "homepage": "https://github.com/RavicharanN/SensitiveDataTrim-db#readme",
   "dependencies": {
     "config-node": "^1.3.0",
-    "lodash": "^4.17.4"
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "prompt": "^1.0.0"
   }
 }
