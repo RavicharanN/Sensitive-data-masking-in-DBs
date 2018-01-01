@@ -1,5 +1,4 @@
-import { REFUSED } from 'dns';
-import { request } from 'https';
+
 
 var prompt = require('prompt'),
     config = require('./config/config.js'),
