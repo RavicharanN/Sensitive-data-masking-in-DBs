@@ -75,7 +75,7 @@ prompt.get(['csvPath'], function(err,result) {
     path = result.csvPath; //Set the input path to 'path' variable
     console.log(path);
 
-    var readStream = fs.createReadStream("test.csv"); //Create a read stream that reads data from the given csv path
+    var readStream = fs.createReadStream(path); //Create a read stream that reads data from the given csv path
 
     // Set parameters according to environment - (Look into ReadMe for further details)
     var env = process.env.NODE_ENV || 'development';
