@@ -1,4 +1,6 @@
 {
     "altCC" : "<CREDIT_CARD>",
-    "altAccNo" : "<ACCOUNT_NO>"
+    "altAccNo" : "<ACCOUNT_NO>",
+    "#" : "<HASH>",
+    "-" : "<LINE>"
 }
